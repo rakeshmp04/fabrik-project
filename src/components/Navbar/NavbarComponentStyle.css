@@ -1,0 +1,42 @@
+
+.container{
+    width: 20%;
+    background-image: url(/src/assets/logo.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 50px;
+    cursor: pointer;
+}
+
+.side-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-be;
+    flex-flow: column;
+    margin-top: 150px; 
+  }
+
+.side-navbar button{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    border:none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+button:hover{
+    background-color: rgb(43, 50, 50);
+  }
+
+  .icons{
+   align-items: baseline;
+   margin-right: 20px;
+  }
+
+  
